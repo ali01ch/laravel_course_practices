@@ -9,9 +9,24 @@
 </head>
 <body dir="rtl">
     <header>
-
+        <div class="container border py-2 px-4">
+            <ul class="nav nav-tabs border-0 d-flex align-items-center">
+                <li class="nav-item">
+                    <img src="images/laravel-logo.svg" alt="" width="50" height="50" class="d-inline-block align-text-top bg-white">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">صفحه نخست</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">تمرینات</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">تمرین اول</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
     </header>
-    <main class="my-3">
+    <main class="py-3">
         <div class="container row mx-auto border border-secondary w-auto py-4">
             <form action="" class="border col-12 col-sm-8 col-md-7 col-lg-4 mx-auto p-0 m-0 px-3 rounded-3">
                 <h3 class="text-center my-3">فرم درخواست</h3>
@@ -63,5 +78,6 @@
     
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
