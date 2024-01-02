@@ -1,0 +1,16 @@
+{
+  "name": "practice_1_laravel_course-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Chenini",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.11.2",
+    "jquery": "^3.7.1"
+  }
+}
