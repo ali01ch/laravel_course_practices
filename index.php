@@ -20,6 +20,15 @@
             height: 100%;
             font-family: "iran-sans", Arial, Helvetica, sans-serif !important;
         }
+        a{
+            text-decoration: none !important;
+        }
+        .link-success:focus, .link-success:hover{
+            color: white !important;
+        }
+        .inactive{
+            display: none;
+        }
     </style>
 
 </head>
@@ -32,7 +41,13 @@
     <main id="mainTag">
         <?php
             function alternativePage($alternativePage) {
-                include "particles/".$alternativePage; 
+                if($alternativePage == "homePage.php"){
+                    include "particles/".$alternativePage; 
+                }
+                else{
+                    include "practies/".$alternativePage; 
+                }
+
             }
 
             if (isset($_GET['homePage'])) {
@@ -40,6 +55,9 @@
             }
             if (isset($_GET['practice_1'])) {
                 alternativePage('practice_1.php');
+            }
+            if (isset($_POST['register'])) {
+                alternativePage('registration_recovery.php');
             }
         ?>
     </main>
@@ -49,11 +67,16 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+    <script type="text/javascript">
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
         })
+        function TC(){
+            console.log("in");
+            $('.register-form').toggleClass('inactive') ;
+            $('.result-register-form').toggleClass('inactive');
+        }
     </script>
 </body>
 </html>
