@@ -2,7 +2,7 @@
     <div class="container bg-light py-2 px-4 border-bottom border-2 border-primary">
         <ul class="nav nav-tabs border-0 d-flex align-items-center">
             <li class="nav-item me-2">
-                <img src="images/laravel-logo.svg" alt="" width="50" height="50" class="d-inline-block align-text-top bg-white">
+                <img src="images/laravel-logo.svg" alt="" width="50" height="50" class="d-inline-block align-text-top bg-transparent">
             </li>
             <li class="nav-item" >
               <a class="nav-link" aria-current="page" href="index.php?homePage=true">صفحه نخست</a>
