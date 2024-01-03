@@ -1,7 +1,7 @@
 <header>
     <div class="container border py-2 px-4">
         <ul class="nav nav-tabs border-0 d-flex align-items-center">
-            <li class="nav-item">
+            <li class="nav-item me-2">
                 <img src="images/laravel-logo.svg" alt="" width="50" height="50" class="d-inline-block align-text-top bg-white">
             </li>
             <li class="nav-item" >
@@ -10,7 +10,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">تمرینات</a>
               <ul class="dropdown-menu" >
-                <li><a class="dropdown-item" href="index.php?practice_1=true">تمرین اول</a></li>
+                <li data-bs-toggle="tooltip" data-bs-placement="left" title="پنجشنبه 15/10/1402"><a class="dropdown-item" href="index.php?practice_1=true">تمرین اول</a></li>
               </ul>
             </li>
           </ul>
