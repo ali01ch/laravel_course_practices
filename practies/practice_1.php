@@ -63,9 +63,13 @@
                 <textarea class="m-0 p-0 w-100 form-control" name="further_details" id="further_details" rows="5" ></textarea>
             </div>
           </div>
-        <div class="row w-100 d-flex justify-content-evenly align-items-center my-3">
-            <button type="submit" name="register" value="register" class="btn btn-success m-0 w-25">ثبت</button>
-            <button type="reset" class="btn btn-danger m-0 w-25">بازنشانی</button>
+        <div class="row w-100 d-flex justify-content-evenly align-items-center my-3 mx-0 p-0">
+            <div class="col-6 m-0 py-0 px-1">            
+                <button type="submit" name="register" value="register" class="btn btn-success m-0 w-100">ثبت</button>
+            </div>
+            <div class="col-6 m-0 py-0 px-1">
+                <button type="reset" class="btn btn-danger m-0 w-100">بازنشانی</button>
+            </div>
         </div>
     </form>
 </div>
