@@ -3,7 +3,14 @@
     <?php 
         if(isset($_POST["register"])){
     ?>
-    <h1 class="text-info">با موفقیت ثبت شد</h1>
+    <div class="w-100 border d-flex flex-column justify-content-center align-items-center">
+        <div class="w-100my-4  d-flex justify-content-center align-items-center">
+            <i class="mx-1 my-0 p-0 text-success fs-1 bi bi-check-circle-fill"></i>   
+            <h2 class="mx-1 my-0 p-0 text-success">ثبت نام با موفقیت انجام شد</h2>
+        </div>
+        <button class="my-4 d-block btn btn-primary"><a class="link-primary text-white" href="index.php?practice_1=true">بازگشت</a></button>
+    </div>
+
 </div>
 
 <?php
@@ -16,7 +23,6 @@
     $gender = $_POST["gender"];
     $email = $_POST["email"];
     $further_details = $_POST["further_details"];
-
 
     $myDb = mysqli_connect("localhost", "root", "") or die("error!!");
     mysqli_select_db($myDb, "practice_1");

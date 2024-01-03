@@ -23,11 +23,8 @@
         a{
             text-decoration: none !important;
         }
-        .link-success:focus, .link-success:hover{
+        .link-primary:hover{
             color: white !important;
-        }
-        .inactive{
-            display: none;
         }
     </style>
 
@@ -72,11 +69,6 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
         })
-        function TC(){
-            console.log("in");
-            $('.register-form').toggleClass('inactive') ;
-            $('.result-register-form').toggleClass('inactive');
-        }
     </script>
 </body>
 </html>

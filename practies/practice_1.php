@@ -7,7 +7,7 @@
                 <label for="" class="form-control m-0 border-0">نام</label>
             </div>
             <div class="col-8">
-                <input type="text" name="first_name" class="form-control m-0 ms-1">
+                <input type="text" name="first_name" class="form-control m-0 ms-1" required>
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
@@ -15,7 +15,7 @@
                 <label for="" class="form-control m-0 border-0 pe-0">نام خانوادگی</label>
             </div>
             <div class="col-8">
-                <input type="text" name="last_name" class="form-control m-0 ms-1">
+                <input type="text" name="last_name" class="form-control m-0 ms-1" required>
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
@@ -23,7 +23,7 @@
                 <label for="" class="form-control m-0 border-0 pe-0">کد ملی</label>
             </div>
             <div class="col-8">
-                <input type="number" name="national_code" class="form-control m-0 ms-1">
+                <input type="number" name="national_code" class="form-control m-0 ms-1" required>
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
@@ -31,7 +31,7 @@
                 <label for="" class="form-control m-0 border-0 pe-0">تاریخ تولد</label>
             </div>
             <div class="col-8">
-                <input type = "date" name="date_of_birth" class="form-control m-0 ms-1">
+                <input type = "date" name="date_of_birth" class="form-control m-0 ms-1" required>
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
@@ -44,7 +44,7 @@
                     <label class="form-check-label" for="flexRadioDefault1">زن</label>
                 </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gender" id="gender"  value="مرد">
+                    <input class="form-check-input" type="radio" name="gender" id="gender"  value="مرد" checked>
                     <label class="form-check-label" for="flexRadioDefault2">مرد</label>
                 </div>
             </div>
