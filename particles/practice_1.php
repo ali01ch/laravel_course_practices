@@ -3,19 +3,26 @@
     <form action="" class="border col-12 col-sm-8 col-md-7 col-lg-4 mx-auto p-0 m-0 px-3 rounded-3">
         <h3 class="text-center my-3">فرم درخواست</h3>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
-            <label for="" class="w-auto col-4 form-control m-0 border-0">نام</label>
+            <div class="col-4 ">
+                <label for="" class="form-control m-0 border-0">نام</label>
+            </div>
             <div class="col-8">
                 <input type="text" class="form-control m-0 ms-1">
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
-            <label for="" class="w-auto col-4 form-control m-0 border-0">نام خانوادگی</label>
+            <div class="col-4 p-0">
+                <label for="" class="form-control m-0 border-0 pe-0">نام خانوادگی</label>
+            </div>
+
             <div class="col-8">
                 <input type="text" class="form-control m-0 ms-1">
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
-            <label for="" class="w-auto col-4 form-control m-0 border-0">جنسیت</label>
+            <div class="col-4 ">
+                <label for="" class="form-control m-0 border-0">جنسیت</label>
+            </div>
             <div class="col-8 d-flex justify-content-around">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -28,7 +35,9 @@
             </div>
         </div>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
-            <label for="" class="w-auto col-4 form-control m-0 border-0">ایمیل</label>
+            <div class="col-4 ">
+                <label for="" class="form-control m-0 border-0">ایمیل</label>
+            </div>
             <div class="col-8">
                 <input type="email" class="form-control m-0 ms-1">
             </div>
