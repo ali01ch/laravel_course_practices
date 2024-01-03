@@ -6,6 +6,22 @@
     <title>practice 1 of laravel course</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css"> 
+    <style>
+        @font-face {
+            font-family: "iran-sans";
+            src: url(fonts/A-Iranian-Sans/IranianSans.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        html,body {
+            padding: 0;
+            position: relative;
+            height: 100%;
+            font-family: "iran-sans", Arial, Helvetica, sans-serif !important;
+        }
+    </style>
+
 </head>
 <body dir="rtl">
     <header>
