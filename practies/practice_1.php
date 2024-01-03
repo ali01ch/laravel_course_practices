@@ -1,6 +1,6 @@
 
-<div class="container row mx-auto border border-secondary w-auto py-4">
-    <form method="post" action="index.php?register=true" class="register-form border col-12 col-sm-8 col-md-7 col-lg-4 mx-auto p-0 m-0 px-3 rounded-3">
+<div class="container row mx-auto bg-light w-auto py-4">
+    <form method="post" action="index.php?register=true" class="bg-white register-form border col-12 col-sm-8 col-md-7 col-lg-4 mx-auto p-0 m-0 px-3 rounded-3">
         <h3 class="text-center my-3">فرم ثبت نام</h3>
         <div class="row g-1 w-auto m-0 my-3 p-0 d-flex justify-content-between align-items-center">
             <div class="col-4 ">

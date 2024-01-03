@@ -1,5 +1,5 @@
 <header>
-    <div class="container border py-2 px-4">
+    <div class="container bg-light py-2 px-4 border-bottom border-2 border-primary">
         <ul class="nav nav-tabs border-0 d-flex align-items-center">
             <li class="nav-item me-2">
                 <img src="images/laravel-logo.svg" alt="" width="50" height="50" class="d-inline-block align-text-top bg-white">
