@@ -44,17 +44,19 @@
                 else{
                     include "practies/".$alternativePage; 
                 }
-
             }
 
             if (isset($_GET['homePage'])) {
                 alternativePage('homePage.php');
             }
-            if (isset($_GET['practice_1'])) {
+            elseif (isset($_GET['practice_1'])) {
                 alternativePage('practice_1.php');
             }
-            if (isset($_POST['register'])) {
+            elseif (isset($_POST['register'])) {
                 alternativePage('registration_recovery.php');
+            }
+            else{
+                alternativePage('homePage.php');
             }
         ?>
     </main>
