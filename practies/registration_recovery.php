@@ -24,7 +24,7 @@
 
     $myDb = mysqli_connect("localhost", "root", "") or die("error!!");
     mysqli_select_db($myDb, "practice_1");
-
+    
     $enter_information = "INSERT INTO `registration_form`(`first_name`, `last_name`, `national_code`, `date_of_birth`, `gender` , `email` , `further_details`) VALUES ('".$first_name."' , '".$last_name."' , '".$national_code."' , '".$date_of_birth."' , '".$gender."' , '".$email."' , '".$further_details."')";
     mysqli_query($myDb, "SET CHARACTER SET UTF8");
     $result = mysqli_query($myDb, $enter_information);

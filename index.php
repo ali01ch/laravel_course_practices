@@ -32,13 +32,13 @@
 <body dir="rtl">
     <header>
         <?php
-            include "particles/header.php"; 
+            include "particles/header.html"; 
         ?>
     </header>
     <main id="mainTag">
         <?php
             function alternativePage($alternativePage) {
-                if($alternativePage == "homePage.php"){
+                if($alternativePage == "homePage.html"){
                     include "particles/".$alternativePage; 
                 }
                 else{
@@ -47,16 +47,16 @@
             }
 
             if (isset($_GET['homePage'])) {
-                alternativePage('homePage.php');
+                alternativePage('homePage.html');
             }
             elseif (isset($_GET['practice_1'])) {
-                alternativePage('practice_1.php');
+                alternativePage('practice_1.html');
             }
             elseif (isset($_POST['register'])) {
                 alternativePage('registration_recovery.php');
             }
             else{
-                alternativePage('homePage.php');
+                alternativePage('homePage.html');
             }
         ?>
     </main>
